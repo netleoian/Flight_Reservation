@@ -1,0 +1,76 @@
+﻿已經開始建置於 2016/6/18 下午 10:32:51。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\yan li jia\Desktop\作業\程式設計FINAL(2)\S1043337-FINAL\S1043337-FINAL.vcxproj"。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Final Exam.cpp" Flight.cpp FlightSchedule.cpp MakingReservation.cpp Reservation.cpp ReservationDatabase.cpp ViewingCanceling.cpp
+         ViewingCanceling.cpp
+         ReservationDatabase.cpp
+     1>c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\vector.h(123): warning C4018: '<' : signed/unsigned 不相符
+                 c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\vector.h(120) : 編譯類別 樣板 成員函式 'void vector<Reservation>::push_back(const T)' 時
+                 with
+                 [
+                     T=Reservation
+                 ]
+                 c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\reservationdatabase.cpp(22) : 請參閱所要編譯的函式 樣板 具現化 'void vector<Reservation>::push_back(const T)' 的參考
+                 with
+                 [
+                     T=Reservation
+                 ]
+                 c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\reservationdatabase.h(30) : 請參閱所要編譯的類別 樣板 具現化 'vector<Reservation>' 的參考
+     1>c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\vector.h(123): warning C4620: 找不到類型 'Iterator<T>' 後置格式的 '++ 運算子'，已改用前置格式
+                 with
+                 [
+                     T=Reservation
+                 ]
+     1>c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\vector.h(140): warning C4620: 找不到類型 'Iterator<T>' 後置格式的 '++ 運算子'，已改用前置格式
+                 with
+                 [
+                     T=Reservation
+                 ]
+                 c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\vector.h(138) : 編譯類別 樣板 成員函式 'Iterator<T> vector<T>::erase(Iterator<T>)' 時
+                 with
+                 [
+                     T=Reservation
+                 ]
+                 c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\reservationdatabase.cpp(50) : 請參閱所要編譯的函式 樣板 具現化 'Iterator<T> vector<T>::erase(Iterator<T>)' 的參考
+                 with
+                 [
+                     T=Reservation
+                 ]
+     1>c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\vector.h(145): warning C4018: '<' : signed/unsigned 不相符
+         Reservation.cpp
+         MakingReservation.cpp
+         FlightSchedule.cpp
+     1>c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\vector.h(123): warning C4018: '<' : signed/unsigned 不相符
+                 c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\vector.h(120) : 編譯類別 樣板 成員函式 'void vector<Flight>::push_back(const T)' 時
+                 with
+                 [
+                     T=Flight
+                 ]
+                 c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\flightschedule.cpp(22) : 請參閱所要編譯的函式 樣板 具現化 'void vector<Flight>::push_back(const T)' 的參考
+                 with
+                 [
+                     T=Flight
+                 ]
+                 c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\flightschedule.h(28) : 請參閱所要編譯的類別 樣板 具現化 'vector<Flight>' 的參考
+     1>c:\users\yan li jia\desktop\作業\程式設計final(2)\s1043337-final\vector.h(123): warning C4620: 找不到類型 'Iterator<T>' 後置格式的 '++ 運算子'，已改用前置格式
+                 with
+                 [
+                     T=Flight
+                 ]
+         Flight.cpp
+         Final Exam.cpp
+         正在產生程式碼...
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\yan li jia\Desktop\作業\程式設計FINAL(2)\S1043337-FINAL\Debug\S1043337-FINAL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\yan li jia\Desktop\作業\程式設計FINAL(2)\S1043337-FINAL\Debug\S1043337-FINAL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\yan li jia\Desktop\作業\程式設計FINAL(2)\S1043337-FINAL\Debug\S1043337-FINAL.lib" /MACHINE:X86 "Debug\Final Exam.obj"
+         Debug\Flight.obj
+         Debug\FlightSchedule.obj
+         Debug\MakingReservation.obj
+         Debug\Reservation.obj
+         Debug\ReservationDatabase.obj
+         Debug\ViewingCanceling.obj
+         S1043337-FINAL.vcxproj -> C:\Users\yan li jia\Desktop\作業\程式設計FINAL(2)\S1043337-FINAL\Debug\S1043337-FINAL.exe
+     1>專案 "C:\Users\yan li jia\Desktop\作業\程式設計FINAL(2)\S1043337-FINAL\S1043337-FINAL.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.69
